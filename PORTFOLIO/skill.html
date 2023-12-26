@@ -1,0 +1,173 @@
+<!-- In this skill html doc. -->
+<!-- I have my skill.. -->
+<!-- I have not created a multiple folder and file it. -->
+<!-- Everything is inside the same file. -->
+<!-- CSS or JAVASCRIPT -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill</title>
+  <!-- add the google font  -->
+        <!--link the google font ppopins....-->
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        /> 
+
+        <!-- writing css in the same file .... -->
+        <style>
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins' , sans-serif;
+          }
+          body{
+            background-color: #292828;
+            margin: auto;
+            max-width: 1440px;
+            max-height: 1300px;
+          }
+          a{
+            text-decoration: none;
+          }
+          li{
+            list-style: none;
+          }
+          header{
+            margin-top: 30px;
+            align-items: center;
+          }
+          header nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            column-gap: 4px;
+          }
+          header nav h1{
+            font-size: 27px;
+            font-weight: 900;
+            color: rgb(213, 230, 245);
+          }
+          header nav h1 span{
+            color: rgb(181, 243, 56);
+          }
+          .section{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+
+          }
+          .section div{
+            height: 400px;
+            width: 300px;
+            background-color: #221212;
+            border-radius: 10%;
+            margin-top: 120px;
+          }
+          .section div h1{
+            margin: 40px 60px;
+            font-size: 30px;
+            color: rgb(105, 75, 47);
+          }
+          .section div h1:hover{
+            color: #292828;
+            cursor: pointer;
+            font-size: 13px;
+          }
+          .section div ul{
+            display: flex;
+            flex-direction: column;
+            flex-grow: inherit;
+            column-gap: normal;
+            align-items: center;
+            justify-content: space-evenly;
+          }
+          .section div ul li a{
+            font-size: 20px;
+            color: #1d4deb;
+            font-weight: 500;
+          }
+          #button{
+            display: flex;
+            position: relative;
+            align-items: center;
+            margin: 70px 60px;
+          }
+          .back-button{
+            border-radius: 50%;
+            height: 20px;
+            width: 22px;
+            border-color: rgb(13, 247, 247);
+          }
+          #element{
+            font-weight: 800;
+            font-style: italic;
+            font-size: 30px;
+            color: rgb(144, 199, 35);
+          }
+        </style>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>WEB <span>SKILL or PASSION</span></h1>
+      <h3>Dinkar</h3>
+      <span id="element"></span>
+    </nav>
+  </header>
+  <section class="section">
+    <div class="section-div">
+      <h1>HTML</h1>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">-> HTML:5</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">->SEMANTICS</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">->ATTRIBUTES</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation">->Validating</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML">->Debbuging</a></li>
+      </ul>
+   </div>
+    <div class="section-div">
+      <h1>CSS</h1>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">->CSS:BASICS</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid">->Grid & FlexBox</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList">->Media Query</a></li>
+        <li><a href="https://v2.tailwindcss.com/docs">->Tailwind CSS</a></li>
+        <li><a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">->BootStrap</a></li>
+      </ul>
+    </div>
+    <div class="section-div">
+      <h1>JAVASCRIPT</h1>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">->Advance Javascript</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Routers">->Hooks & Routers</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/DOM">->Working with DOM</a></li>
+        <li><a href="https://nodejs.org/docs/latest/api/documentation.html">->Node.js</a></li>
+        <li><a href="https://dev.mysql.com/doc/">->SQL</a></li>
+      </ul>
+    </div>
+  </section>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'DINKAR THAKUR','PROFESSIONAAL DEVELOPER','Dinkar Thakur','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL DEVELOPER','PROFESSIONAAL','Pro- DINKAR THAKUR'],
+      typeSpeed: 105,
+    });
+  </script>
+  <section id="button">
+    <button><a href="./index.html"><img src="ASSETS/back-button.png" alt="back-button" class="back-button"></a></button>
+    <p>To Read More About Thses Skills.
+      <br>
+      Click on Skill 
+    </p>
+  </section>
+</body>
+</html>

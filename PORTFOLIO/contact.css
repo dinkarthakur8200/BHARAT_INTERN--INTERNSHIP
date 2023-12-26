@@ -1,0 +1,175 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+  }
+  
+  body {
+    max-width: 1440px;
+    background-color: #504e4e;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+
+a
+{
+    text-decoration: none;
+}
+
+ 
+li
+ {
+    list-style: none;
+ }
+ 
+  /* designing the navigation menu */
+  nav 
+  {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  header
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* desinging the logo  */
+.header nav a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #20BC7E;
+}
+.nav-right
+{
+    height: 39px;
+    width: fit-content;
+    padding: 70px 40px;
+    margin-right: 90px;
+    color: #20BC7E;
+}
+
+.nav-right
+.nav-left
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 20px;
+    margin-right: 90px;
+}
+
+header ul li
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.nav-left li a{
+    font-size: 17px;
+}
+
+/* desinging thhe main section of our about page ..... */
+  /* designing the logo */
+  nav img {
+    width: 150px;
+  }
+  
+  /* desiging the navigation menu links */
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li 
+  {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+  }
+  
+  nav ul li:first-child 
+  {
+    font-weight: 700;
+    color: #20bc7e;
+  }
+
+  .nav-left li
+  {
+    list-style: none;
+  }
+  .nav-left li a 
+  {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+
+  /* designing the main section and form */
+  main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form{
+    width: 350px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  form h1{
+    text-align: center;
+  }
+
+  form div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  form div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  form div input{
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+  form div textarea{
+    resize: none;
+    height: 100px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+
+  form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

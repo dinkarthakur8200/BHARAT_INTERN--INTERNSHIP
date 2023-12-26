@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+body{
+    color: #706f65;
+    /* background-color: rgb(11,12,16); */
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(241, 151, 151);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #eff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+   display: inline-block;
+   font-size: 25px;
+   color: rgb(13, 4, 95);
+   text-decoration: none;
+   font-weight: 500;
+   margin-left: 35px ;
+   transition: .3s;
+
+} 
+
+.navbar a:hover{
+    color: rgb(70, 94, 235);
+    height: fit-content;
+    width: fit-content;
+    font-weight: 700;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1px;
+    justify-content: space-between;
+    align-items: center;
+    margin: px 100px;
+    background-color: rgb(159, 170, 216);
+    height: 770px;
+    width: 1585px;
+}
+
+.home div{
+    margin : 0pc 190px;
+    column-gap: px;
+}
+
+/* ---------------------               ------------------------------ */
+/* ------------------- styling the home developer png -----------------------*/
+
+.home-pic img{
+    height: 390px;
+    width: 400px;
+}
+
+.home-pic img:hover{
+    height: 400px;
+    width: 400px;
+    cursor: pointer;
+    position: sticky;
+}
+/* .home-content h3{
+    font-size: 80px;
+    color: rgb(89, 199, 207);
+} */
+
+.home-content h1{
+    font-size: 38px;
+    font-style: normal;
+    color: rgb(233, 241, 239);
+    font-weight: 700;
+}
+
+.home-content h1 span{
+    color: rgb(219, 243, 6);
+    font-weight: 700;
+}
+
+/* .home-content h2{
+    color: rgb(117, 131, 53);
+    font-weight: 900;
+} */
+
+.home-content p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(80, 109, 110);  
+    font-family: cursive;
+}
+
+#element{
+    color: rgb(37, 240, 230);
+    font-size: 40px;
+}
+.home-content div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+}
+
+.home-content div button a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #080000;
+    font-size: 17px;
+}
+.home-content div button{
+    height: 60px;
+    width: 120px;
+    background-color: #726e6e;
+    border-radius: 10%;
+    border-color: aqua;
+    box-shadow: #0ef;
+    margin-left: 30px;
+}
+
+.home-content div{
+    margin: 30px 0px;
+}
+/* hover the effects of buttons */
+.home-content div button:hover{
+    color: #080000;
+    font-weight: 900;
+    background-color: aqua;
+    height: fit-content;
+    width: fit-content;
+    cursor: pointer;
+    height: 50px;
+    width: 130px;
+}
+.home-content button:hover{
+    border-color: #cf0e0e;
+    margin-bottom: 10px;
+}

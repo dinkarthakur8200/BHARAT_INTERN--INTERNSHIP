@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <!-- link the css.... -->
+    <link rel="stylesheet" href="./style.css ">
+
+       <!--link the google font ppopins....-->
+    
+       <link rel="preconnect" href="https://fonts.googleapis.com" />
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+       <link
+         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+         rel="stylesheet"
+       />
+    
+ 
+     <!-- link the css.... -->
+ 
+    
+</head>
+<body>
+    <!-- linking the js file  -->
+    <script src="./main.js"></script>
+
+    <!-- Now,  -->
+    <header class="header">
+        <a href="#" class="logo" >PortFolio</a>
+
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./skill.html">Skill</a>
+            <a href="https://github.com/dinkarthakur8200">PortFolio</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, My name is <br> <span>Dinkar Thakur</span></h1>
+            <h1>and  I'm a passionate</h1>
+            <span id="element"></span>
+            <p>So,For more details and Enquiry. You may  </p>
+            <p>Connect with me on Different Social Media</p>
+            <p>Platform.</p>
+            <div>
+                <button><a href="https://twitter.com/thakurdau2022">Hire,Me</a></button>
+                <button><a href="https://drive.google.com/file/d/1e72uw801w-OljgE9N03zi6s9m4Gg46oR/view?usp=sharing">Download CV</a></button>
+            </div>
+        </div>
+
+        <div class="home-pic">
+            <img src="./ASSETS/Mypic.png" alt="Mypic" >
+       </div>
+
+        <!-- Javascript code for animation.... -->
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+         <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer.','Full Stack Developer','Flutter Developer','Software Developer','JAVASCRIPT Developer','Front-End Developer','Back-End Developer','Full Stack Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+    </section>
+    <hr>
+</body>
+</html>

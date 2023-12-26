@@ -1,0 +1,157 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins' , sans-serif;
+    }
+
+    body{
+        background-color:rgb(76,74,75);
+        height: fit-content;
+        width:fit-content ;
+        background-image: url(ASSETS/aboutbgc.jpg);
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin: 50px 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header h1{
+        font-size: 50px;
+        font-weight: 700;
+        font-family: sans-serif;
+        color: rgb(195, 219, 240);
+        gap: 10px;
+    }
+    .header h1 span{
+        color: rgb(230, 230, 3);
+    }
+    .header p{
+        font-size: 19px;
+        font-weight: 400;
+        color: rgb(22, 204, 153);
+        font-style: italic;
+        padding: 30px 10px;
+    }
+    .main img{
+        height: 60px;
+        width: 100px;
+        border-color: rgb(20, 245, 245);
+        border-radius: 20%;
+        margin-left: 200px;
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        border-color: rgb(97, 236, 190);
+        align-items: center;
+        justify-content: space-between;
+    }
+    .main div h1{
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(233, 218, 8);
+    }
+    section {
+        padding-top: 4vh;
+        height: 60vh;
+        margin: 0 10rem;
+        box-sizing: border-box;
+        min-height: fit-content;
+      }
+    .cards-section{
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+      margin-top: 2px;
+    }
+    .cards-section div{
+      border-color: rgb(15, 212, 212);
+      border-width: 10px;
+      background-color: rgb(11,12,16);
+      border-radius: 10%;
+    }
+
+    /* -------------   ----------- */
+    /* ---------- removing the bgc of first div ------------------*/
+
+    .cards-section div:nth-child(1){
+      background-color: transparent;
+      border-bottom: #0eeeee;
+      box-shadow: 4px solid #0eeeee;
+    }
+    .card div:hover{
+      cursor: pointer;
+    }
+    .cards-section div h1{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      color: yellow;
+      margin:10px 50px;
+    }
+    .cards-section div h1:hover{
+      color: rgb(236, 154, 154);
+      font-weight: 700;
+      height: 40px;
+      width: 220px;
+      cursor: pointer;
+    }
+    .cards-section div p{
+      font-weight: 600;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      font-size: 12px;
+      color: #C3DBF0;
+    }
+    /* .cards-section div:hover{
+      height: 200px;
+      width: 500px;
+      transform: translateX(0.3s);
+      
+    } */
+    .card img{
+      border-radius: 3%;
+      height: 400px;
+      width: 448px;
+    }
+
+    footer{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 1200px;
+    }
+    button{
+      height: 50px;
+      width: 150px;
+      border-radius: 20%;
+      margin: 10px 20px;
+      background-color: #0eeeee;
+    }
+
+    button a{
+      font: 600, italic,;
+      list-style: none;
+      text-decoration: none;
+      font-size: 15px;
+      color: rgb(219, 70, 16);
+    }
+    .section-button{
+      height: 50px;
+      width: 150px;
+      border-radius: 20%;
+      margin: 10px 20px;
+      background-color: #0eeeee;
+    } 
+      
+    footer button:hover{
+      background-color: #fff;
+      color: #0eeeee;
+      font: 900, 20px;
+      cursor: pointer;
+    }
